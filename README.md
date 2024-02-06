@@ -1,4 +1,4 @@
-# Curriculum Vitae
+# My Project
 
 ## Who am I?
 
