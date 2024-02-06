@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+
+}
+body {
+    font-family: sans-serif;
+    color: black;
+    background: lightblue;
+}
+
+/* Add a black background color to the top navigation */
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    padding: 20px 20%;
+    align-items: center;
+    
+  }
+  /*justify-content: space-between;
+    flex-wrap: wrap; ->for making the nav links to the right 
+  
+  
+  /* Style the links inside the navigation bar */
+  .navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navigation a:hover {
+    background-color: #ddd;
+    color: black;
+    
+  }
+  
+  /* Add a color to the active/current link */
+  .navigation a.active {
+    background-color:#04AA6D;
+    color: white;
+  
+}
+ul li {
+  list-style: none;
+  margin: 10px 20px;
+  display:inline-block;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.text {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+  width: 80%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side {
+  position: relative;
+  background-color: #003147;
+  padding: 40px;
+}
+.profile {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profile .image{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow:hidden;
+}
+.profile .image img{
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile h1{
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-align: center;
+}
+.Contactinfo {
+  padding-top: 40px;
+  color:#fff;
+  font-weight: 300px;
+}
+.title {
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+.Languages{
+  padding-top: 40px;
+  color:#fff;
+  font-weight: 300px;
+}
+.container .right_side {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+}
+.CV {
+  margin-bottom: 50px;
+}
+.title2{
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.CV .h5{
+  color:#003147;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
